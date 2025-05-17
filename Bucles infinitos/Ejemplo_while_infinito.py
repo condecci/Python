@@ -1,18 +1,18 @@
 # Almacena el actual número más grande aquí.
-largest_number = -999999999
+Numero_mas_grande= -999999999
 
 # Ingresa el primer valor.
-number = int(input("Introduce un número o escribe -1 para detener: "))
+numero_usuario = int(input("Introduce un número o escribe -1 para detener: "))
 
 # Si el número no es igual a -1, continuaremos
-while number != -1:
+while numero_usuario != -1:
     # ¿Es el número más grande que el valor de largest_number?
-    if number > largest_number:
+    if numero_usuario > Numero_mas_grande:
         # Sí si, se actualiza largest_number.
-        largest_number = number
+        Numero_mas_grande = numero_usuario
     # Ingresa el siguiente número.
-    number = int(input("Introduce un número o escribe -1 para detener: "))
+    numero_usuario = int(input("Introduce un número o escribe -1 para detener: "))
 
 # Imprime el número más grande.
-print("El número más grande es:", largest_number)
+print("El número más grande es:", Numero_mas_grande)
 
