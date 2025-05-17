@@ -2,7 +2,7 @@
 Numero_mas_grande= -999999999
 
 # Ingresa el primer valor.
-numero_usuario = int(input("Introduce un número o escribe -1 para detener: "))
+numero_usuario = int(input("Introduce un número o escribe -1 para detener el bucle: "))
 
 # Si el número no es igual a -1, continuaremos
 while numero_usuario != -1:
@@ -11,7 +11,7 @@ while numero_usuario != -1:
         # Sí si, se actualiza largest_number.
         Numero_mas_grande = numero_usuario
     # Ingresa el siguiente número.
-    numero_usuario = int(input("Introduce un número o escribe -1 para detener: "))
+    numero_usuario = int(input("Introduce un número o escribe -1 para detener el bucle: "))
 
 # Imprime el número más grande.
 print("El número más grande es:", Numero_mas_grande)
